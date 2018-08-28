@@ -1,0 +1,34 @@
+html,body 
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+#nev{
+	height: 7em;
+	background-color: #696969;
+}
+.m-nav{
+	height: 5em;
+}
+.sub-nav{
+	height: 2em;
+	background-color: #CD3333;
+}
+.logo{
+	background-image: url(../images/logo.png);
+
+}
+.m-wrap{
+	width: 80%;
+	margin-left: 10%;
+}
+ul.main-nav li{
+	list-style-type: none;
+}
+.m-logo,ul.main-nav li{
+	display: inline-block;
+	width: 10%;
+	height: inherit;
+}
