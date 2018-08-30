@@ -1,34 +1,59 @@
-html,body 
+*,body
 {
 	margin: 0;
 	padding: 0;
-	height: 100%;
-	width: 100%;
 }
 #nev{
-	height: 7em;
-	background-color: #696969;
+	height: 6em;
+	background-color: #242424;
 }
 .m-nav{
-	height: 5em;
+	height: 4em;
 }
 .sub-nav{
 	height: 2em;
-	background-color: #CD3333;
-}
-.logo{
-	background-image: url(../images/logo.png);
-
+	background-color: #C20c0c;
 }
 .m-wrap{
 	width: 80%;
 	margin-left: 10%;
 }
+.m-logo,ul.main-nav li{
+	display: block;
+	float: left;
+}
+ul.main-nav{
+	float: left;
+	height: 64px;
+	margin-left: 20px;
+}
 ul.main-nav li{
 	list-style-type: none;
-}
-.m-logo,ul.main-nav li{
-	display: inline-block;
-	width: 10%;
 	height: inherit;
+	padding: 0px 20px;
 }
+ul.main-nav li  a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	line-height: 64px;
+	text-align: center;
+	font-family: times;
+	height: inherit;
+	width: inherit;
+}
+ul.main-nav li:hover{
+	background-color: black;
+}
+
+
+a.logo{
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+}
+/*.sub-col{
+	background: url(../images/subnav.png);
+	position: absolute;
+    //暂不考虑
+}*/
